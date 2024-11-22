@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pororo Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: lightblue;
+        }
+        h1 {
+            text-align: center;
+            color: #3e63b1;
+        }
+
+        h2{
+            color: #3e63b1;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        table, th, td {
+            border: 8px solid grey;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            color:#3e63b1;
+        }
+
+        th {
+            background-color: lightskyblue;
+        }
+
+        td{
+            background-color: white;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label, input, textarea {
+            display: block;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            color:#3e63b1;
+
+        }
+
+        input , textarea{
+            border: 8px solid grey;
+        }
+        button {
+            background-color: #567beb;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px
+        }
+        button:hover {
+            background-color: #3e63b1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Selamat Datang di Dunia Pororo</h1>
+
+        <!-- Menampilkan Gambar -->
+        <img src="1.jpg" alt="Pororo and Friends">
+
+        <!-- Menampilkan Formulir -->
+        <h2>Formulir Pendaftaran Klub Pororo</h2>
+        <form action="#" method="post">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Pesan untuk Pororo:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Kirim</button>
+        </form>
+
+        <!-- Menampilkan Tabel -->
+        <h2>Tabel Karakter Pororo</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Karakter</th>
+                    <th>Deskripsi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Pororo</td>
+                    <td>Penguin kecil yang ceria dan penuh rasa ingin tahu.</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Crong</td>
+                    <td>Dinosaurus hijau kecil yang setia dan suka bermain.</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Loopy</td>
+                    <td>Berang-berang merah muda yang kreatif dan pandai memasak.</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Eddy</td>
+                    <td>Rubah oranye yang pintar dan suka bereksperimen.</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Poby</td>
+                    <td>Beruang kutub besar yang ramah dan baik hati.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+
